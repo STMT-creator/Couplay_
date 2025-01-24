@@ -20,11 +20,11 @@
         <div class="site-logo text-center">
             <img src="images/couplay-logo.png" alt="couplay logo">
         </div>
-        <nav>
-            <ul class="site-nav d-flex gap-1 justify-center">
-                <li class="site-nav-border"><a href="#">shopping</a></li>
-                <li class="site-nav-border"><a href="#">sales</a></li>
-                <li class="site-nav-border"><a href="#">event</a></li>
+        <nav class="site-nav">
+            <ul class="d-flex gap-1 justify-center">
+                <a href="#" class="site-nav-btn"><li><p>shopping</p></li></a>
+                <a href="#" class="site-nav-btn"><li><p>sales</p></li></a>
+                <a href="#" class="site-nav-btn"><li><p>event</p></li></a>
             </ul>
         </nav>
     </header>
@@ -41,9 +41,9 @@
             <tr class="d-flex items-center">
                 <th class="flex-1">회원구분</th>
                 <td class="text-indent flex-4 w-30">
-                    <input type="radio" name="member-type">
+                    <input type="radio" name="member-type" class="text-indent">
                     <span>개인회원</span>
-                    <input type="radio" name="member-type">
+                    <input type="radio" name="member-type" class="text-indent">
                     <span>사업자회원</span>
                 </td>
             </tr>
@@ -54,15 +54,15 @@
             </div>
             <tr class="d-flex items-center user-id">
                 <th class="flex-1">아이디</th>
-                <td class="text-indent flex-4 w-30"><input type="text"></td>
+                <td class="text-indent flex-4 w-30"><input type="text" class="text-indent"></td>
             </tr>
             <tr class="d-flex items-center user-pw">
                 <th class="flex-1">비밀번호</th>
-                <td class="text-indent flex-4 w-30"><input type="password"></td>
+                <td class="text-indent flex-4 w-30"><input type="password" class="text-indent"></td>
             </tr>
             <tr class="d-flex items-center user-name">
                 <th class="flex-1">이름</th>
-                <td class="text-indent flex-4 w-30"><input type="text"></td>
+                <td class="text-indent flex-4 w-30"><input type="text" class="text-indent"></td>
             </tr>
             <tr class="d-flex items-center user-tel">
                 <th class="flex-1">연락처</th>
@@ -73,22 +73,22 @@
                         <option value="016">016</option>
                     </select>
                     <span>-</span>
-                    <input type="tel" maxlength="4" class="w-10">
+                    <input type="tel" class="text-indent w-10" maxlength="4">
                     <span>-</span>
-                    <input type="tel" maxlength="4" class="w-10">
+                    <input type="tel" class="text-indent w-10" maxlength="4">
                 </td>
             </tr>
             <tr class="d-flex items-center user-sms">
                 <th class="flex-1">SMS 수신여부</th>
                 <td class="text-indent flex-4 w-30">
-                    <input type="checkbox" checked>
+                    <input type="checkbox" class="text-indent" checked>
                     <label for="sms_box">수신함</label>
                 </td>
             </tr>
             <tr class="d-flex items-center user-email">
                 <th class="flex-1">이메일</th>
                 <td class="text-indent flex-4 w-30">
-                    <input type="text">
+                    <input type="text" class="text-indent">
                     <span>&#64;</span>
                     <select name="email" id="email_rel">
                         <option value="google">google.com</option>
@@ -101,26 +101,26 @@
             <tr class="d-flex items-center user-file">
                 <th class="flex-1">파일첨부</th>
                 <td class="text-indent flex-4 w-30">
-                    <input type="text">
+                    <input type="text" class="text-indent">
                     <button type="button">찾아보기</button>
                 </td>
             </tr>
         </table>
         <div class="btns text-center my-2">
-            <button type="submit" class="signup-btn">가입</button>
-            <button type="reset" class="cancel-btn">취소</button>
+            <a href="#"><button type="submit" class="signup-btn">가입</button></a>
+            <a href="#"><button type="reset" class="cancel-btn">취소</button></a>
         </div>
     </main>
     <!-- main ends -->
     <footer id="footer">
-        <ul>
+        <ul class="cs-bar d-flex gap-1 justify-center my-1">
             <li>이용약관</li>
             <li>개인정보취급방침</li>
             <li>이용안내</li>
             <li>고객센터</li>
         </ul>
-        <p>광주광역시 서구 쌍촌동 한울직업전문학교 4층 402호</p>
-        <p>copyright&copy; 2017 couplay all rights reserved.</p>
+        <p class="address text-center my-1">광주광역시 서구 쌍촌동 한울직업전문학교 4층 402호</p>
+        <p class="copyright text-center my-1">copyright&copy; 2017 couplay all rights reserved.</p>
     </footer>
     <!-- footer ends -->
 </body>
