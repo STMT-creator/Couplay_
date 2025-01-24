@@ -62,6 +62,9 @@ a, a:link {
 .vertical-middle {
     vertical-align: middle;
 }
+.vertical-top {
+    vertical-align: top;
+}
 
 .mx-auto {
     margin: 0 auto;
