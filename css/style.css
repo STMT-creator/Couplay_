@@ -186,11 +186,11 @@ a, a:link {
     font-size: .9rem;
 }
 
-.file-find-btn {
+.file_find {
     background-color: red;
     color: white;
     padding: .2rem 1rem;
-    border: 1px solid black;
+    border: 0;
 }
 
 .signup-btn {
@@ -237,4 +237,13 @@ a, a:link {
 .user-email input,
 .user-file input {
     width: 40%;
+}
+
+/* id */
+#attached_file {
+    width: 40%;
+}
+#file_find {
+    width: 0;
+    height: 0;
 }

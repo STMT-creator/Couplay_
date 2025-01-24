@@ -113,7 +113,7 @@
             <tr class="d-flex items-center user-sms">
                 <th class="flex-1">SMS 수신여부</th>
                 <td class="text-indent flex-4 w-30">
-                    <input type="checkbox" class="text-indent" checked>
+                    <input type="checkbox" name="sms_box" id="sms_box" class="text-indent" checked>
                     <label for="sms_box">수신함</label>
                 </td>
             </tr>
@@ -133,8 +133,9 @@
             <tr class="d-flex items-center user-file">
                 <th class="flex-1">파일첨부</th>
                 <td class="text-indent flex-4 w-30">
-                    <input type="text" class="text-indent">
-                    <button type="button" class="file-find-btn">찾아보기</button>
+                    <input type="file" name="file_find" id="file_find">
+                    <input type="text" id="attached_file" disabled>
+                    <label for="file_find" class="file_find">찾아보기</label>
                 </td>
             </tr>
         </table>
