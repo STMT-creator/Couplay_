@@ -26,6 +26,9 @@
     .user-file button {
         font-size: .8rem;
     }
+    .user-id input, .user-pw input, .user-name input {
+        width: 40vw;
+    }
 }
 @media screen and (max-width: 384px) {
     html {
