@@ -139,6 +139,12 @@ td select {
 .basic-info h3 {
     font-size: .9rem;
 }
+.file-find-btn {
+    background-color: red;
+    color: white;
+    padding: .2rem 1rem;
+    border: 1px solid black;
+}
 .signup-btn {
     padding: .5rem 2rem;
     background-color: black;
