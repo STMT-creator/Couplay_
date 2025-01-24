@@ -15,9 +15,6 @@ th {
     padding: .5rem 1rem;
     margin: .1rem 0;
 }
-td input {
-    padding: .2rem 0;
-}
 td select {
     padding: .2rem 0;
 }
@@ -43,6 +40,9 @@ td select {
 }
 .items-center {
     align-items: center;
+}
+.vertical-middle {
+    vertical-align: middle;
 }
 .mx-auto {
     margin: 0 auto;
@@ -135,6 +135,9 @@ td select {
 }
 .basic-info {
     font-size: .7rem;
+}
+.basic-info input {
+    padding: .2rem 0;
 }
 .basic-info h3 {
     font-size: .9rem;

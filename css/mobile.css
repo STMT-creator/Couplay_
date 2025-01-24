@@ -1,5 +1,56 @@
 @charset "utf-8";
 
 @media screen and (max-width: 425px) {
-
+    html {
+        font-size: 15px;
+    }
+    .container {
+        width: 75vw;
+    }
+    .member-type input {
+        vertical-align: middle;
+    }
+    .user-email input[type=text] {
+        width: 18vw;
+    }
+    .user-email select {
+        font-size: .8rem;
+        width: 18vw;
+    }
+    .user-tel input[type=tel] {
+        width: 11vw;
+    }
+    .user-file input[type=text] {
+        width: 20vw;
+    }
+    .user-file button {
+        font-size: .8rem;
+    }
+}
+@media screen and (max-width: 384px) {
+    html {
+        font-size: 15px;
+    }
+    .container {
+        width: 75vw;
+    }
+    .member-type input {
+        vertical-align: middle;
+    }
+    .user-email input[type=text] {
+        width: 18vw;
+    }
+    .user-email select {
+        font-size: .8rem;
+        width: 18vw;
+    }
+    .user-tel input[type=tel] {
+        width: 11vw;
+    }
+    .user-file input[type=text] {
+        width: 20vw;
+    }
+    .user-file button {
+        font-size: .8rem;
+    }
 }
