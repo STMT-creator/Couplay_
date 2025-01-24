@@ -29,6 +29,9 @@
     .user-id input, .user-pw input, .user-name input {
         width: 40vw;
     }
+    .user-sms input[type=checkbox] {
+        vertical-align: middle;
+    }
 }
 @media screen and (max-width: 384px) {
     html {
