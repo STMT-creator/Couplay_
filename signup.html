@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Couplay</title>
+</head>
+
+<body>
+    <header id="header">
+        <ul class="top-nav">
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">장바구니</a></li>
+            <li><a href="#">주문조회</a></li>
+        </ul>
+        <div class="header-logo">
+            <img src="images/couplay-logo.png" alt="couplay logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">shopping</a></li>
+                <li><a href="#">sales</a></li>
+                <li><a href="#">event</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header ends -->
+    <main id="main">
+        <h1>join</h1>
+        <p>회원가입</p>
+        <h3>가입구분</h3>
+        <table>
+            <tr>
+                <th>회원구분</th>
+                <td>
+                    <input type="radio"></input>
+                    <label for="private_user">개인회원</label>
+                    <input type="radio"></input>
+                    <label for="business_user">사업자회원</label>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <legend>기본정보</legend>
+            <h3>기본정보</h3>
+            <tr>
+                <th>아이디</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>비밀번호</th>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <th>이름</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>연락처</th>
+                <td>
+                    <select name="tel" id="tel_first">
+                        <option value="010">010</option>
+                        <option value="011">011</option>
+                        <option value="016">016</option>
+                    </select>
+                    <span>-</span>
+                    <input type="text" maxlength="4">
+                    <span>-</span>
+                    <input type="text" maxlength="4">
+                </td>
+            </tr>
+            <tr>
+                <th>SMS 수신여부</th>
+                <td>
+                    <input type="checkbox" checked>
+                    <label for="sms_box">수신함</label>
+                </td>
+            </tr>
+            <tr>
+                <th>이메일</th>
+                <td>
+                    <input type="text">
+                    <span>&#64;</span>
+                    <select name="email" id="email_rel">
+                        <option value="google">google.com</option>
+                        <option value="naver">naver.com</option>
+                        <option value="nate">nate.com</option>
+                        <option value="daum">daum.net</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>파일첨부</th>
+                <td>
+                    <input type="text">
+                    <input type="button" value="찾아보기">
+                </td>
+            </tr>
+        </table>
+        <button>가입</button>
+        <button>취소</button>
+    </main>
+    <!-- main ends -->
+    <footer id="footer">
+        <ul>
+            <li>이용약관</li>
+            <li>개인정보취급방침</li>
+            <li>이용안내</li>
+            <li>고객센터</li>
+        </ul>
+        <p>광주광역시 서구 쌍촌동 한울직업전문학교 4층 402호</p>
+        <p>copyright&copy; 2017 couplay all rights reserved.</p>
+    </footer>
+    <!-- footer ends -->
+</body>
+
+</html>
